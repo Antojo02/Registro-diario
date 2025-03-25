@@ -1,0 +1,121 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 30px;
+    font-size: 16px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2575fc;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #6a11cb;
+    transform: scale(1.1);
+  }
+  
+  /* Formulario */
+  form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+    color: #fff;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+    outline: none;
+  }
+  
+  /* Botón */
+  button {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+  }
+  
+  /* Visualización de registros */
+  #registros {
+    margin-top: 40px;
+  }
+  
+  #registros div {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #registros strong {
+    font-size: 1.5rem;
+    color: #2575fc;
+  }
+  
+  #registros p {
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Efecto de transición en los elementos */
+  input, textarea, button {
+    transition: all 0.3s ease;
+  }
+  
